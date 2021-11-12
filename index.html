@@ -1,26 +1,32 @@
 <html>
-
 <head>
-    <title>Special Stopwatch</title>
-    <link href="HangmanStyles.css" rel="stylesheet">
-    
-
+    <title>Earnest Hangman</title>
+    <link rel="stylesheet" href="HangmanStyle.css">
+    <!--      <link rel="shortcut icon"
+              href="img/skeleton.gif" />-->
 </head>
-
 <body>
-    
-    <div class="wrapper">
-        <h1>Stopwatch</h1>
-        <h2>Vanilla JavaScript Stopwatch</h2>
-       <!-- <p><span id="seconds">00</span>:<span id="tens">00</span></p>-->
-        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
-        <button id="button-start">Start</button>
-        <button id="button-stop">Stop</button>
-        <button id="button-reset">Reset</button>
-    </div>
-    <script src="SScript.js"></script>
+    <main>
+        <h1>
+            <!-- img src="https://fontmeme.com/permalink/211109/32b37950845684ee957349c1b3299223.png" -->
+            <!--<img class="banner" src="img/title.png"
+                 alt="Earnest Hangman!" border="0">-->
+        </h1>
+        <!--<div id="gallows">
+            <img id="hangmanImage" src="img/hang">
+        </div>-->
+        <div id="word"></div>
+        <br>
+        <div id="controls">
+            <input type="text" id="guessBox">
+            <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+            <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+            <br>
+            <br>
+        </div>
+        <br>
+        <div id="guesses"></div>
+    </main>
+    <script src="HangmanScript.js"></script>
 </body>
-
-
-
 </html>
