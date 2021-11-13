@@ -1,5 +1,10 @@
 ﻿body {
-    background: rgb(102, 178, 255);
+    /*background: rgb(102, 178, 255);*/
+    /*background: url(moonlit_ocean.jpg);*/
+    background: url(moon_phases_moon.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
