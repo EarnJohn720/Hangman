@@ -11,6 +11,13 @@ main {
     max-width: 610px;
     margin: auto;
 }
+#hangmanImage {
+    margin: auto;
+    padding-left: 10rem;
+    /*background-size: .2%;*/
+    max-width: 50%;
+    max-height: 50%;
+}
 
 h1, h5 {
     text-align: center;
@@ -39,7 +46,8 @@ h1, h5 {
 #guesses {
     text-align: center;
     font-size: 16pt;
-    color: rgb(255, 255, 153);
+    /*color: rgb(255, 255, 153);*/
+    color: rgb(5, 255, 10);
     font-weight: bold;
     font-family: "Courier New", Courier, monospace
 }
@@ -57,7 +65,8 @@ h1, h5 {
     #guesses {
         text-align: center;
         font-size: 24pt;
-        color: rgb(255, 255, 153);
+        color: rgb(102, 178, 255);
+        /*color: rgb(255, 255, 153);*/
         font-weight: bold;
         font-family: "Courier New", Courier, monospace
     }
@@ -79,6 +88,8 @@ h1, h5 {
     font-size: 18pt;
     width: 200px;
     padding-left: 10px;
+
+    /*color: rgb(5, 255, 10);*/
 }
 
 /* Buttons */
@@ -91,18 +102,18 @@ h1, h5 {
     text-decoration: none;
     outline: none;
     color: #666;
-    background-color: rgb(255, 255, 153);
+    background-color: rgb(255, 255, 225);
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
 
     .button:hover {
-        background-color: rgb(224, 224, 139)
+        background-color: rgb(102, 178, 255)
     }
 
     .button:active {
-        background-color: rgb(224, 224, 139);
+        background-color: rgb(255, 255, 153);
         box-shadow: 0 5px #666;
         transform: translateY(4px);
     }
